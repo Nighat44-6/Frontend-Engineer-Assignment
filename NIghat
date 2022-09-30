@@ -1,5 +1,10 @@
 Q1) Explain what the simple List component does.
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+In the given code we are using Simple List component for displaying an unordered list having few texts as List items.
+We are using WrappedListComponent for creating the unordered list and we are taking array for items of string as the props.
+These props like onClickHandler, text, index, isSelected are being called every time we use map function that 
+returns a text with a background colour depending on selected items i.e it will be displayed in red colour 
+but when you select any item it will change the colour to green.
+
 Q2) What problems / warnings are there with code?
 1) onClick events should have a function reference instead of a function call.
 
